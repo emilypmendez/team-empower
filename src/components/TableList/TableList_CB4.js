@@ -13,17 +13,16 @@ import {
   Col,
 } from "react-bootstrap";
 
-function TableList() {
+function TableListCB4() {
 
   return (
     <>
       <Container fluid>
-
         <Row>
           <Col md="12">
             <Card className="strpied-tabled-with-hover">
               <Card.Header>
-                <Card.Title as="h4"><strong>Top 5 Agency Budgets</strong></Card.Title>
+                <Card.Title as="h4"><strong>Top 5 Agency Budgets of Community Board 4</strong></Card.Title>
                 <p className="card-category">
                   Displaying fun statistics as it appears on NYC.gov
                 </p>
@@ -49,7 +48,7 @@ function TableList() {
                       <td>CB 4</td>
                       <td>Brooklyn</td>
                       <td>New York</td>
-                      <td><Button onClick={(event)=> event.target.value}>View on NYC.gov</Button></td>
+                      <td><Button onClick={(event)=> event.target.value} target="_blank">View on NYC.gov</Button></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -58,7 +57,7 @@ function TableList() {
                       <td>CB 4</td>
                       <td>Brooklyn</td>
                       <td>New York</td>
-                      <td><Button onClick={(event)=> event.target.value}>View on NYC.gov</Button></td>
+                      <td><Button onClick={(event)=> event.target.value} target="_blank">View on NYC.gov</Button></td>
                     </tr>
                     <tr>
                       <td>3</td>
@@ -67,7 +66,7 @@ function TableList() {
                       <td>CB 4</td>
                       <td>Brooklyn</td>
                       <td>New York</td>
-                      <td><Button onClick={(event)=> event.target.value}>View on NYC.gov</Button></td>
+                      <td><Button onClick={(event)=> event.target.value} target="_blank">View on NYC.gov</Button></td>
                     </tr>
                     <tr>
                       <td>4</td>
@@ -76,7 +75,7 @@ function TableList() {
                       <td>CB 4</td>
                       <td>Brooklyn</td>
                       <td>New York</td>
-                      <td><Button onClick={(event)=> event.target.value}>View on NYC.gov</Button></td>
+                      <td><Button onClick={(event)=> event.target.value} target="_blank">View on NYC.gov</Button></td>
                     </tr>
                     <tr>
                       <td>5</td>
@@ -85,7 +84,7 @@ function TableList() {
                       <td>CB 4</td>
                       <td>Brooklyn</td>
                       <td>New York</td>
-                      <td><Button onClick={(event)=> event.target.value}>View on NYC.gov</Button></td>
+                      <td><Button onClick={(event)=> event.target.value} target="_blank">View on NYC.gov</Button></td>
                     </tr>
                   </tbody>
                 </Table>
@@ -170,4 +169,4 @@ function TableList() {
   );
 }
 
-export default TableList;
+export default TableListCB4;

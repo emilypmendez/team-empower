@@ -5,6 +5,7 @@ import BK14 from "views/BK14.js";
 import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
+import Docs from "views/Docs.js";
 import Notifications from "views/Notifications.js";
 import Upgrade from "views/Upgrade.js";
 
@@ -37,7 +38,7 @@ const dashboardRoutes = [
   {
     path: "/cb4",
     name: "Community Board: 4",
-    icon: "nc-icon nc-notes",
+    icon: "nc-icon nc-money-coins",
     component: BK4,
     layout: "/admin",
     invisible: false
@@ -45,7 +46,7 @@ const dashboardRoutes = [
   {
     path: "/cb14",
     name: "Community Board: 14",
-    icon: "nc-icon nc-paper-2",
+    icon: "nc-icon nc-money-coins",
     component: BK14,
     layout: "/admin",
     invisible: false
@@ -68,8 +69,8 @@ const dashboardRoutes = [
   },
   {
     path: "/maps",
-    name: "Maps",
-    icon: "nc-icon nc-pin-3",
+    name: "Mapping Tool",
+    icon: "nc-icon nc-square-pin",
     component: Maps,
     layout: "/admin",
     invisible: false
@@ -79,6 +80,14 @@ const dashboardRoutes = [
     name: "Notifications",
     icon: "nc-icon nc-bell-55",
     component: Notifications,
+    layout: "/admin",
+    invisible: true
+  },
+  {
+    path: "/docs",
+    name: "Documentation",
+    icon: "nc-icon nc-paper-2",
+    component: Docs,
     layout: "/admin",
     invisible: false
   }

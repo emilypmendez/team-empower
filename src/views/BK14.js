@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import TableList from "../components/TableList/TableList.js"
+import TableListCB14 from "../components/TableList/TableList_CB14.js"
 
 // react-bootstrap components
 import {
@@ -45,7 +45,7 @@ function BK14() {
   return (
     <>
       <Container fluid>
-        <TableList/>
+        <TableListCB14/>
 
         {/* JSON DATA */}
         <Row>

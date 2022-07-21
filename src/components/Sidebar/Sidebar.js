@@ -39,7 +39,7 @@ function Sidebar({ color, image, routes }) {
         </div>
         <Nav>
           {routes.map((prop, key) => {
-            if (prop.invisible) return null;
+            if (prop.invisible) return null; {/* https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/documentation/routing-system:~:text=if(prop.invisible)%20return%20null%3B */}
             if (!prop.redirect)
               return (
                 <li
