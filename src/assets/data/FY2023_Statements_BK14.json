@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "priority": "1/13",
+    "agency": "NYPD",
+    "budgetType": "Capital",
+    "request": "Public Safety and Emergency Services",
+    "requestDescription": "Renovate orupgrade existingprecinct houses"
+  },
+  {
+    "id": 2,
+    "priority": "2/13",
+    "agency": "DPR",
+    "budgetType": "Capital",
+    "request": "Parks, Cultural and Other Community Facilities",
+    "requestDescription": "Reconstruct orupgrade a park oramenity (i.e.playground, , outdoorathletic field)"
+  },
+  {
+    "id": 3,
+    "priority": "3/13",
+    "agency": "DPR",
+    "budgetType": "Capital",
+    "request": "Parks, Cultural and Other Community Facilities",
+    "requestDescription": "Provide a new orexpanded park oramenity (i.e.playground, , outdoorathletic field)"
+  },
+  {
+    "id": 4,
+    "priority": "4/13",
+    "agency": "DOT",
+    "budgetType": "Capital",
+    "request": "Transportation and Mobility",
+    "requestDescription": "Roadwaymaintenance (i.e.pothole repair, ,resurfacing, , trenchrestoration, , etc.)"
+  },
+  {
+    "id": 5,
+    "priority": "5/13",
+    "agency": "DOT",
+    "budgetType": "Capital",
+    "request": "Transportation and Mobility",
+    "requestDescription": "Upgrade or createnew plazas"
+  },
+  {
+    "id": 6,
+    "priority": "6/13",
+    "agency": "DOT",
+    "budgetType": "Capital",
+    "request": "Transportation and Mobility",
+    "requestDescription": "Rehabilitate bridges"
+  },
+  {
+    "id": 7,
+    "priority": "7/13",
+    "agency": "SCA",
+    "budgetType": "Capital",
+    "request": "Youth, Education and Child Welfare",
+    "requestDescription": "Provide a new orexpand an existingelementary school"
+  },
+  {
+    "id": 8,
+    "priority": "8/13",
+    "agency": "NYCTA",
+    "budgetType": "Capital",
+    "request": "Transportation and Mobility",
+    "requestDescription": "Repair or upgradesubway stations orother transitinfrastructure"
+  },
+  {
+    "id": 9,
+    "priority": "9/13",
+    "agency": "FDNY",
+    "budgetType": "Capital",
+    "request": "Public Safety and Emergency Services",
+    "requestDescription": "Rehabilitate orrenovate existingfire houses or EMSstations"
+  },
+  {
+    "id": 10,
+    "priority": "10/13",
+    "agency": "NYCTA",
+    "budgetType": "Capital",
+    "request": "Transportation and Mobility",
+    "requestDescription": "Improveaccessibility oftransitinfrastructure, , byproviding elevators, ,escalators, , etc."
+  },
+  {
+    "id": 11,
+    "priority": "11/13",
+    "agency": "NYPD",
+    "budgetType": "Capital",
+    "request": "Public Safety and Emergency Services",
+    "requestDescription": "Renovate orupgrade existingprecinct houses"
+  },
+  {
+    "id": 12,
+    "priority": "12/13",
+    "agency": "SCA",
+    "budgetType": "Capital",
+    "request": "Youth, Education and Child Welfare",
+    "requestDescription": "Renovate other sitecomponent"
+  },
+  {
+    "id": 13,
+    "priority": "13/13",
+    "agency": "NYP",
+    "budgetType": "Capital",
+    "request": "Public Safety and Emergency Services",
+    "requestDescription": "Provide surveillance(Argus) cameras"
+  },
+  {
+    "id": 14,
+    "priority": "CS",
+    "agency": "DSNY",
+    "budgetType": "Capital",
+    "request": "Infrastructure, City Services and Resiliency",
+    "requestDescription": "Provide new orupgrade existingsanitation garagesor other sanitationinfrastructure"
+  },
+  {
+    "id": 15,
+    "priority": "CS",
+    "agency": "BPL",
+    "budgetType": "Capital",
+    "request": "Parks, Cultural and Other Community Facilities",
+    "requestDescription": "Create a new, , orrenovate or upgradean existing publiclibrary (BPL)"
+  },
+  {
+    "id": 16,
+    "priority": "1/25",
+    "agency": "OMB",
+    "budgetType": "Expense",
+    "request": "Parks, Cultural and Other Community Facilities",
+    "requestDescription": "Provide morecommunity boardstaff"
+  },
+  {
+    "id": 17,
+    "priority": "2/25",
+    "agency": "DEP",
+    "budgetType": "Expense",
+    "request": "Core Infrastructure, City Services and Resiliency",
+    "requestDescription": "Inspect water mainon specific streetsegment and repairor replace asneeded"
+  },
+  {
+    "id": 18,
+    "priority": "3/25",
+    "agency": "DSNY",
+    "budgetType": "Expense",
+    "request": "Core Infrastructure, City Services and Resiliency",
+    "requestDescription": "Other cleaningrequests"
+  },
+  {
+    "id": 19,
+    "priority": "4/25",
+    "agency": "DPR",
+    "budgetType": "Expense",
+    "request": "Parks, Cultural and Other Community Facilities",
+    "requestDescription": "Forestry services, ,including street treemaintenance"
+  },
+  {
+    "id": 20,
+    "priority": "5/25",
+    "agency": "DOB",
+    "budgetType": "Expense",
+    "request": "Housing, Economic Development and Land Use",
+    "requestDescription": "Assign additionalbuilding inspectors(includingexpanding trainingprograms)"
+  },
+  {
+    "id": 21,
+    "priority": "6/25",
+    "agency": "DEP",
+    "budgetType": "Expense",
+    "request": "Core Infrastructure, City Services and Resiliency",
+    "requestDescription": "Clean catch basins"
+  },
+  {
+    "id": 22,
+    "priority": "7/25",
+    "agency": "DOHM",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Other programs toaddress publichealth issuesrequests"
+  },
+  {
+    "id": 23,
+    "priority": "8/25",
+    "agency": "DOHM",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Create or promoteprograms to de-stigmatize mentalhealth needs andencouragetreatment"
+  },
+  {
+    "id": 24,
+    "priority": "9/25",
+    "agency": "FDNY",
+    "budgetType": "Expense",
+    "request": "Public Safety and Emergency Services",
+    "requestDescription": "Provide morefirefighters or EMSworkers"
+  },
+  {
+    "id": 25,
+    "priority": "10/25",
+    "agency": "DYCD",
+    "budgetType": "Expense",
+    "request": "Youth, Education and Child Welfare",
+    "requestDescription": "Provide, , expand, ,enhance theSummer YouthEmploymentProgram"
+  },
+  {
+    "id": 26,
+    "priority": "11/25",
+    "agency": "ACS",
+    "budgetType": "Expense",
+    "request": "Youth, Education and Child Welfare",
+    "requestDescription": "Other foster careand child welfarerequests"
+  },
+  {
+    "id": 27,
+    "priority": "12/25",
+    "agency": "HPD",
+    "budgetType": "Expense",
+    "request": "Housing, Economic Development and Land Use",
+    "requestDescription": "Expand programfor housinginspections tocorrect codeviolations"
+  },
+  {
+    "id": 28,
+    "priority": "13/25",
+    "agency": "DHS",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Expand streetoutreach"
+  },
+  {
+    "id": 29,
+    "priority": "14/25",
+    "agency": "NYPD",
+    "budgetType": "Expense",
+    "request": "Public Safety and Emergency Services",
+    "requestDescription": "Hire additionalcrossing guards"
+  },
+  {
+    "id": 30,
+    "priority": "15/25",
+    "agency": "HRA",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Provide, , expand, , orenhance rentalassistanceprograms/vouchersfor permanenthousing"
+  },
+  {
+    "id": 31,
+    "priority": "16/25",
+    "agency": "DFTA",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Funding for a newsenior centerprogram"
+  },
+  {
+    "id": 32,
+    "priority": "17/25",
+    "agency": "DFTA",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Increase staffing forhomebound adultprograms"
+  },
+  {
+    "id": 33,
+    "priority": "18/25",
+    "agency": "DOHMH",
+    "budgetType": "Expense",
+    "request": "Health Care and Human Services",
+    "requestDescription": "Animal and pestcontrol requestsincluding reducingrat and mosquitopopulations"
+  },
+  {
+    "id": 34,
+    "priority": "19/25",
+    "agency": "SBS",
+    "budgetType": "Expense",
+    "request": "Housing, Economic Development and Land Use",
+    "requestDescription": "Other commercialdistrict revitalizationrequests"
+  },
+  {
+    "id": 35,
+    "priority": "20/25",
+    "agency": "BPL",
+    "budgetType": "Expense",
+    "request": "Parks, Cultural and Other Community Facilities",
+    "requestDescription": "Extend library hoursor expand andenhance libraryprograms (BPL)"
+  },
+  {
+    "id": 36,
+    "priority": "21/25",
+    "agency": "EDC",
+    "budgetType": "Expense",
+    "request": "Housing, Economic Development and Land Use",
+    "requestDescription": "Expandprogramming andactivation of City-owned sites"
+  },
+  {
+    "id": 37,
+    "priority": "22/25",
+    "agency": "NYCTA",
+    "budgetType": "Expense",
+    "request": "Transportation and Mobility",
+    "requestDescription": "Other transit servicerequests"
+  },
+  {
+    "id": 38,
+    "priority": "23/25",
+    "agency": "DSNY",
+    "budgetType": "Expense",
+    "request": "Core Infrastructure, City Services and Resiliency",
+    "requestDescription": "Increaseenforcement ofcanine waste laws"
+  },
+  {
+    "id": 39,
+    "priority": "24/25",
+    "agency": "DSNY",
+    "budgetType": "Expense",
+    "request": "Core Infrastructure, City Services and Resiliency",
+    "requestDescription": "Provide morefrequent litterbasket collection"
+  },
+  {
+    "id": 40,
+    "priority": "25/25",
+    "agency": "DSNY",
+    "budgetType": "Expense",
+    "request": "Core Infrastructure, City Services and Resiliency",
+    "requestDescription": "Provide morefrequent litterbasket collection"
+  }
+]
