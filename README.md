@@ -9,20 +9,6 @@ The product represents a small suite of tools based on data science that can hel
 **[About Community Boards](https://www1.nyc.gov/site/cau/community-boards/about-commmunity-boards.page)**
 Community Districts are the smallest level of government in NYC and act as a bridge between local communities and the broader city-wide efforts. This project aims to work with the leaders of those communities to empower their districts using data science. Our team will be working with District Manager, Brooklyn Community Board 4 and District Manager, Brooklyn Community Board 14 to uplift their respective districts. Some of our solutions include an interactive tool for land use applications, an interactive dashboard for local budgeting and a mapping tool to determine community needs.
 
-## Table of Contents
-
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
-
 ## Built with...
 
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/html-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/light-bootstrap-dashboard?ref=lbdr-readme)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg" width="60" height="60" />](https://www.creative-tim.com/product/light-bootstrap-dashboard-react?ref=lbdr-readme)
