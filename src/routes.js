@@ -1,6 +1,7 @@
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
 import BK4 from "views/BK4.js";
+import BK14 from "views/BK14.js";
 import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
@@ -34,14 +35,21 @@ const dashboardRoutes = [
     invisible: true
   },
   {
-    path: "/table",
-    name: "Community Board: BK4",
+    path: "/cb4",
+    name: "Community Board: 4",
     icon: "nc-icon nc-notes",
     component: BK4,
     layout: "/admin",
     invisible: false
   },
-  // EDIT HERE
+  {
+    path: "/cb14",
+    name: "Community Board: 14",
+    icon: "nc-icon nc-paper-2",
+    component: BK14,
+    layout: "/admin",
+    invisible: false
+  },
   {
     path: "/typography",
     name: "Typography",

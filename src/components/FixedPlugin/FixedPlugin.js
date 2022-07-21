@@ -59,60 +59,6 @@ function FixedPlugin({
           <i className="fas fa-cogs fa-2x mt-1"></i>
         </Dropdown.Toggle>
         <Dropdown.Menu>
-
-          <li className="header-title">Sidebar Images</li>
-
-            <li className={image === sideBarImage1 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger d-block"
-              href="#pablo"
-              onClick={(e) => {
-                e.preventDefault();
-                setImage(sideBarImage1);
-              }}
-            >
-              <img alt="..." src={sideBarImage1}></img>
-            </a>
-          </li>
-          <li className={image === sideBarImage2 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger d-block"
-              href="#pablo"
-              onClick={(e) => {
-                e.preventDefault();
-                setImage(sideBarImage2);
-              }}
-            >
-              <img alt="..." src={sideBarImage2}></img>
-            </a>
-          </li>
-          <li className={image === sideBarImage3 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger d-block"
-              href="#pablo"
-              onClick={(e) => {
-                e.preventDefault();
-                setImage(sideBarImage3);
-              }}
-            >
-              <img alt="..." src={sideBarImage3}></img>
-            </a>
-          </li>
-
-          <li className={image === sideBarImage4 ? "active" : ""}>
-            <a
-              className="img-holder switch-trigger d-block"
-              href="#pablo"
-              onClick={(e) => {
-                e.preventDefault();
-                setImage(sideBarImage4);
-              }}
-            >
-              <img alt="..." src={sideBarImage4}></img>
-            </a>
-          </li>
-
-
           <li className="header-title pro-title text-center">
             Want more information?
           </li>

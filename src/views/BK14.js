@@ -14,12 +14,12 @@ import {
   Col,
 } from "react-bootstrap";
 
-import dataBK4json from '../assets/data/FY2023_Statements_BK4.json'
+import dataBK14json from '../assets/data/FY2023_Statements_BK14.json'
 
-function BK4() {
+function BK14() {
 
   // react Hook for State Handler
-  const [dataBK4, setDataBK4] = useState(dataBK4json);
+  const [dataBK14, setDataBK14] = useState(dataBK14json);
 
   // useEffect : fetch function for BK4
   useEffect(()=> {
@@ -38,7 +38,7 @@ function BK4() {
         console.error(error);
       }
     }).then(function(data){
-      setDataBK4(data); // store data in State data variable
+      setDataBK14(data); // store data in State data variable
     })
   }, []);
 
@@ -58,11 +58,11 @@ function BK4() {
                the capital requests are ranked by 13 because there are 13 capital requests in total,
                which is why most of the priority numbers are x/13. The expense items are ranked by 25.
              </p>
-             <h4>42 agencies listed</h4>
+             <h4>40 agencies listed</h4>
              </Col>
 
            <Col>
-              {dataBK4json && dataBK4json.map(
+              {dataBK14json && dataBK14json.map(
                 function(data, {agency, priority, budgetType, request}){
                   return (
                     <>
@@ -122,4 +122,4 @@ function BK4() {
   );
 }
 
-export default BK4;
+export default BK14;
