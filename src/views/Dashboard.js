@@ -24,7 +24,7 @@ function Dashboard() {
     <>
       <Container fluid>
         <Row>
-          <h2>Community Board Statistics</h2>
+          <h2>About Community Boards</h2>
           <p>Community Districts are the smallest level of government in NYC and act as a bridge between
             local communities and the broader city-wide efforts. This project aims to work with the leaders
             of those communities to empower their districts using data science. Our team will be working with
