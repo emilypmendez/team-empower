@@ -38,6 +38,7 @@ function Dashboard() {
           </p>
 
 
+          {/*
           <Col lg="3" sm="6">
             <Card className="card-stats">
               <Card.Body>
@@ -144,71 +145,120 @@ function Dashboard() {
                 </div>
               </Card.Footer>
             </Card>
-          </Col>
-
+          </Col>   */}
         </Row>
-
-        {/* JSON DATA */}
-        {/* <Row>
-          <div className="agency-data">
-            <Col>
-            <h4><strong>Agency Data</strong></h4><br/>
-             <p>The "Priority" numbers represent their ranking amongst the other requests. For example in BK14,
-               the capital requests are ranked by 13 because there are 13 capital requests in total,
-               which is why most of the priority numbers are x/13. The expense items are ranked by 25.
-             </p><br/>
-             </Col>
-
-           <Col>
-           <h4><strong>Community Board BK4</strong></h4><br/>
-              {dataBK4json && dataBK4json.map(
-                function(data, {agency, priority, budgetType, request}){
-                  return (
-                    <>
-                    <div key={data.id}>
-                      <Col lg="6" sm="2">
-                        <Card className="card-stats">
-                          <Card.Body>
-                            <Row>
-                              <Col xs="4">
-                                <div className="numbers">
-                                  <p className="card-category">
-                                    <br/>
-                                    <Card.Title as="h4"><strong>({data.id}) Agency:</strong></Card.Title>
-                                  </p>
-
-                                </div>
-                              </Col>
-                              <Col xs="4">
-                                <div className="icon-big text-center icon-warning">
-                                  {data.agency}
-                                </div>
-                              </Col>
-                            </Row>
-                          </Card.Body>
-                          <Card.Footer>
-                            <hr></hr>
-                            <div className="stats">
-                                <strong>Priority: </strong> {data.priority} <br/>
-                                <strong>Budget Type: </strong> {data.budgetType} <br/>
-                                <strong>Request: </strong> {data.request} <br/>
-                                <strong>Description: </strong> <em>{data.requestDescription}</em> <br/>
-                            </div>
-                          </Card.Footer>
-                        </Card>
-                      </Col>
-                    </div>
-                    </>
-                  );
-                }
-              )}
-            </Col>
-            </div>
-        </Row> */}
 
         {/* Charts Data */}
         <Row>
+          <Col md="4">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Top 5 Agencies with Most Budget Expense</Card.Title>
+                <p className="card-category">Current Modified Budget Amount as the credential (in million$)</p>
+              </Card.Header>
+              <Card.Body>
+                <div
+                  className="ct-chart ct-perfect-fourth"
+                  id="chartAgencies_MostBudgetExpense2"
+                >
+                  <ChartistGraph
+                    data={{
+                      labels: ["28.50%", "11.63%", "10.45%", "9.93", "5.99"],
+                      series: [28.50, 11.63, 10.45, 9.93, 5.99],
+                    }}
+                    type="Pie"
+                  />
+                </div>
+                <div className="legend">
+                  <i className="fas fa-circle text-info"></i> Department of Education ($81,697.32)<br/>
+                  <i className="fas fa-circle text-danger"></i> Miscellaneous ($40,517.23)<br/>
+                  <i className="fas fa-circle text-warning"></i> Department of Social Services ($30,770.98)<br/>
+                  <i className="fas fa-circle purple"></i> Pension Contributions ($29,889.29)<br/>
+                  <i className="fas fa-circle green"></i> Police Department ($16,819.43)<br/>
+                </div>
+                <hr></hr>
+                <div className="stats">
+                  <i className="far fa-clock"></i>
+                   Updated July 2022
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+
           <Col md="8">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Top 5 Agencies with Most Budget Expense</Card.Title>
+                <p className="card-category">Current Modified Budget Amount as the credential (in million$)</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart " id="chartAgencies_MostBudgetExpense1">
+                  <ChartistGraph
+                    data={{
+                      labels: [
+                        "DOE",
+                        "MISCELLANEOUS",
+                        "DEPT. SOCIAL SERVICES",
+                        "PENSION CONTRIBUTIONS",
+                        "POLICE DEPARTMENT"
+                      ],
+                      series: [
+                        [
+                          81697.32,
+                          40517.23,
+                          30770.98,
+                          29889.29,
+                          16819.43
+                        ],
+                      ],
+                    }}
+                    type="Bar"
+                    options={{
+                      seriesBarDistance: 10,
+                      axisX: {
+                        showGrid: true,
+                      },
+                      height: "245px",
+                      fullWidth: true,
+                      chartPadding: {
+                        left: 25,
+                      },
+                    }}
+                    responsiveOptions={[
+                      [
+                        "screen and (max-width: 640px)",
+                        {
+                          seriesBarDistance: 5,
+                          axisX: {
+                            labelInterpolationFnc: function (value) {
+                              return value[0];
+                            },
+                          },
+                        },
+                      ],
+                    ]}
+                  />
+                </div>
+              </Card.Body>
+              {/* <Card.Footer>
+                <div className="legend">
+                  <i className="fas fa-circle text-info"></i>
+                  Tesla Model S <i className="fas fa-circle text-danger"></i>
+                  BMW 5 Series
+                </div>
+                <hr></hr>
+                <div className="stats">
+                  <i className="fas fa-check"></i>
+                  Data information certified
+                </div>
+              </Card.Footer> */}
+            </Card>
+          </Col>
+        </Row>
+
+        {/*
+        <Row>
+          <Col md="6">
             <Card>
               <Card.Header>
                 <Card.Title as="h4">Users Behavior</Card.Title>
@@ -281,134 +331,7 @@ function Dashboard() {
               </Card.Footer>
             </Card>
           </Col>
-          <Col md="4">
-            <Card>
-              <Card.Header>
-                <Card.Title as="h4">Email Statistics</Card.Title>
-                <p className="card-category">Last Campaign Performance</p>
-              </Card.Header>
-              <Card.Body>
-                <div
-                  className="ct-chart ct-perfect-fourth"
-                  id="chartPreferences"
-                >
-                  <ChartistGraph
-                    data={{
-                      labels: ["40%", "20%", "40%"],
-                      series: [40, 20, 40],
-                    }}
-                    type="Pie"
-                  />
-                </div>
-                <div className="legend">
-                  <i className="fas fa-circle text-info"></i>
-                  Open <i className="fas fa-circle text-danger"></i>
-                  Bounce <i className="fas fa-circle text-warning"></i>
-                  Unsubscribe
-                </div>
-                <hr></hr>
-                <div className="stats">
-                  <i className="far fa-clock"></i>
-                  Campaign sent 2 days ago
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col md="6">
-            <Card>
-              <Card.Header>
-                <Card.Title as="h4">2017 Sales</Card.Title>
-                <p className="card-category">All products including Taxes</p>
-              </Card.Header>
-              <Card.Body>
-                <div className="ct-chart" id="chartActivity">
-                  <ChartistGraph
-                    data={{
-                      labels: [
-                        "Jan",
-                        "Feb",
-                        "Mar",
-                        "Apr",
-                        "Mai",
-                        "Jun",
-                        "Jul",
-                        "Aug",
-                        "Sep",
-                        "Oct",
-                        "Nov",
-                        "Dec",
-                      ],
-                      series: [
-                        [
-                          542,
-                          443,
-                          320,
-                          780,
-                          553,
-                          453,
-                          326,
-                          434,
-                          568,
-                          610,
-                          756,
-                          895,
-                        ],
-                        [
-                          412,
-                          243,
-                          280,
-                          580,
-                          453,
-                          353,
-                          300,
-                          364,
-                          368,
-                          410,
-                          636,
-                          695,
-                        ],
-                      ],
-                    }}
-                    type="Bar"
-                    options={{
-                      seriesBarDistance: 10,
-                      axisX: {
-                        showGrid: false,
-                      },
-                      height: "245px",
-                    }}
-                    responsiveOptions={[
-                      [
-                        "screen and (max-width: 640px)",
-                        {
-                          seriesBarDistance: 5,
-                          axisX: {
-                            labelInterpolationFnc: function (value) {
-                              return value[0];
-                            },
-                          },
-                        },
-                      ],
-                    ]}
-                  />
-                </div>
-              </Card.Body>
-              <Card.Footer>
-                <div className="legend">
-                  <i className="fas fa-circle text-info"></i>
-                  Tesla Model S <i className="fas fa-circle text-danger"></i>
-                  BMW 5 Series
-                </div>
-                <hr></hr>
-                <div className="stats">
-                  <i className="fas fa-check"></i>
-                  Data information certified
-                </div>
-              </Card.Footer>
-            </Card>
-          </Col>
+
           <Col md="6">
             <Card className="card-tasks">
               <Card.Header>
@@ -713,6 +636,8 @@ function Dashboard() {
             </Card>
           </Col>
         </Row>
+        */}
+
       </Container>
     </>
   );
