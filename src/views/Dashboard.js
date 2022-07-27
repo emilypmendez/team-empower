@@ -153,8 +153,8 @@ function Dashboard() {
           <Col md="4">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Top 5 Agencies with Most Budget Expense</Card.Title>
-                <p className="card-category">Current Modified Budget Amount as the credential (in million$)</p>
+                <Card.Title as="h4">Top Budget Expenses</Card.Title>
+                <p className="card-category">Current Modified Budget Amount as the credential (in millions $$)</p>
               </Card.Header>
               <Card.Body>
                 <div
@@ -163,18 +163,20 @@ function Dashboard() {
                 >
                   <ChartistGraph
                     data={{
-                      labels: ["28.50%", "11.63%", "10.45%", "9.93", "5.99"],
-                      series: [28.50, 11.63, 10.45, 9.93, 5.99],
+                      labels: ["28.5%", "11.6%", "10.5%", "9.9", "6.0", "5.3", "28.1"],
+                      series: [28.5, 11.6, 10.5, 9.9, 6.0, 5.3, 28.1],
                     }}
                     type="Pie"
                   />
                 </div>
                 <div className="legend">
-                  <i className="fas fa-circle text-info"></i> Department of Education ($81,697.32)<br/>
-                  <i className="fas fa-circle text-danger"></i> Miscellaneous ($40,517.23)<br/>
-                  <i className="fas fa-circle text-warning"></i> Department of Social Services ($30,770.98)<br/>
-                  <i className="fas fa-circle purple"></i> Pension Contributions ($29,889.29)<br/>
-                  <i className="fas fa-circle green"></i> Police Department ($16,819.43)<br/>
+                  <i className="fas fa-circle text-info"></i> Department of Education ($81,697.32) - 28.5% <br/>
+                  <i className="fas fa-circle text-danger"></i> Miscellaneous ($40,517.23) - 11.6% <br/>
+                  <i className="fas fa-circle text-warning"></i> Department of Social Services ($30,770.98) - 10.5% <br/>
+                  <i className="fas fa-circle purple"></i> Pension Contributions ($29,889.29) - 9.9% <br/>
+                  <i className="fas fa-circle blue"></i> Police Department ($16,819.43) - 6.0% <br/>
+                  <i className="fas fa-circle green"></i> Debt Service ($XYZ) - 5.3% <br/>
+                  <i className="fas fa-circle yellow"></i> All Other Budgets ($XYZ) - 28.1% <br/>
                 </div>
                 <hr></hr>
                 <div className="stats">
@@ -188,8 +190,8 @@ function Dashboard() {
           <Col md="8">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Top 5 Agencies with Most Budget Expense</Card.Title>
-                <p className="card-category">Current Modified Budget Amount as the credential (in million$)</p>
+                <Card.Title as="h4">Top Budget Expenses</Card.Title>
+                <p className="card-category">Current Modified Budget Amount as the credential (in millions $$)</p>
               </Card.Header>
               <Card.Body>
                 <div className="ct-chart " id="chartAgencies_MostBudgetExpense1">
@@ -200,7 +202,9 @@ function Dashboard() {
                         "MISCELLANEOUS",
                         "DEPT. SOCIAL SERVICES",
                         "PENSION CONTRIBUTIONS",
-                        "POLICE DEPARTMENT"
+                        "POLICE DEPARTMENT",
+                        "DEBT SERVICE",
+                        "ALL OTHER BUDGETS"
                       ],
                       series: [
                         [
@@ -208,7 +212,9 @@ function Dashboard() {
                           40517.23,
                           30770.98,
                           29889.29,
-                          16819.43
+                          16819.43,
+                          12345.12,
+                          34567.89
                         ],
                       ],
                     }}
