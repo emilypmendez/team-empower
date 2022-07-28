@@ -1,0 +1,32 @@
+[
+   {
+      "id":1,
+      "agency":"DEPT OF DESIGN & CONSTRUCTION",
+      "cityAmount":"943,813.25",
+      "noncityAmount":"79859.54000000001"
+   },
+   {
+      "id":2,
+      "agency":"DEPT OF PARKS AND RECREATION",
+      "cityAmount":"89,235.16",
+      "noncityAmount":"3911.80"
+   },
+   {
+      "id":3,
+      "agency":"FIRE DEPARTMENT",
+      "cityAmount":"63,045.62",
+      "noncityAmount":"0.0"
+   },
+   {
+      "id":4,
+      "agency":"BROOKLYN PUBLIC LIBRARY",
+      "cityAmount":"51,399.00",
+      "noncityAmount":"0.0"
+   },
+   {
+      "id":5,
+      "agency":"HEALTH AND HOSPITALS CORP",
+      "cityAmount":"44,118.93",
+      "noncityAmount":"0.0"
+   }
+]

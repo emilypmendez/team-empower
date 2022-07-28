@@ -1,0 +1,32 @@
+[
+   {
+      "id":1,
+      "agency":"DEPARTMENT OF TRANSPORTATION",
+      "cityAmount":"595,954.40",
+      "noncityAmount":"0.0"
+   },
+   {
+      "id":2,
+      "agency":"DEPT OF  SMALL BUSINESS SERVICES",
+      "cityAmount":"342,075.18",
+      "noncityAmount":"17409.0"
+   },
+   {
+      "id":3,
+      "agency":"DEPT OF PARKS AND RECREATION",
+      "cityAmount":"248,623.81",
+      "noncityAmount":"0.0"
+   },
+   {
+      "id":4,
+      "agency":"DEPT ENVIRONMENTAL PROTECTION",
+      "cityAmount":"130,859.00",
+      "noncityAmount":"0.0"
+   },
+   {
+      "id":5,
+      "agency":"DEPT OF DESIGN & CONSTRUCTION",
+      "cityAmount":"103,814.67",
+      "noncityAmount":"0.0"
+   }
+]

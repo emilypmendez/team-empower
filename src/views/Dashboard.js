@@ -175,8 +175,8 @@ function Dashboard() {
                   <i className="fas fa-circle text-warning"></i> Department of Social Services ($30,770.98) - 10.5% <br/>
                   <i className="fas fa-circle purple"></i> Pension Contributions ($29,889.29) - 9.9% <br/>
                   <i className="fas fa-circle blue"></i> Police Department ($16,819.43) - 6.0% <br/>
-                  <i className="fas fa-circle green"></i> Debt Service ($XYZ) - 5.3% <br/>
-                  <i className="fas fa-circle yellow"></i> All Other Budgets ($XYZ) - 28.1% <br/>
+                  <i className="fas fa-circle green"></i> Debt Service ($XYZ) - 5.3% <br/> {/* NEEDS UPDATE */}
+                  <i className="fas fa-circle yellow"></i> All Other Budgets ($XYZ) - 28.1% <br/> {/* NEEDS UPDATE */}
                 </div>
                 <hr></hr>
                 <div className="stats">

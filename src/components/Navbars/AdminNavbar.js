@@ -65,7 +65,7 @@ function Header() {
 
 
             {/* LEFT-HAND NAV */}
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 className="m-0"
                 href="#pablo"
@@ -74,13 +74,13 @@ function Header() {
                 <i className="nc-icon nc-zoom-split"></i>
                 <span className="d-lg-block"> Search</span>
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item>  */}
           </Nav>
 
 
           {/* RIGHT-HAND NAV */}
           <Nav className="ml-auto" navbar>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Dropdown as={Nav.Item}>
                 <Dropdown.Toggle
                   as={Nav.Link}
@@ -126,7 +126,7 @@ function Header() {
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-            </Nav.Item>
+            </Nav.Item> */}
 
             {/* RIGHT-HAND NAV */}
             <Dropdown as={Nav.Item}>
@@ -139,39 +139,29 @@ function Header() {
                 variant="default"
                 className="m-0"
               >
-                <span className="no-icon">Read more about Community Boards</span>
+                <span className="no-icon">Read more information about Community Boards</span>
               </Dropdown.Toggle>
               <Dropdown.Menu aria-labelledby="navbarDropdownMenuLink">
                 <Dropdown.Item
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://www.ibo.nyc.ny.us/budgetbasics.html"
+                  target="_blank"
                 >
-                  Action
+                  Learn About Budget Basics
                 </Dropdown.Item>
                 <Dropdown.Item
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://communityprofiles.planning.nyc.gov/"
+                  target="_blank"
                 >
-                  Another action
+                  More on NYC Community District Profiles
                 </Dropdown.Item>
-                <Dropdown.Item
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Something
-                </Dropdown.Item>
-                <Dropdown.Item
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Something else here
-                </Dropdown.Item>
+
                 <div className="divider"></div>
+
                 <Dropdown.Item
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://www1.nyc.gov/site/cau/connected/sign-up.page"
+                  target="_blank"
                 >
-                  Separated link
+                  Sign Up for Our Newsletter
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
