@@ -88,7 +88,9 @@ function TableListCB14() {
                   </tbody>
                 </Table>
                 <div className="divider"></div>
-                <center><p><em>Information is up to date as of 2022-2023 fiscal year.</em></p></center>
+                  <center><p><em>Information is up to date as of 2022-2023 fiscal year.
+                  View more information by visiting
+                  <a href="https://data.cityofnewyork.us/City-Government/Capital-Project-Detail-Data-Dollars/wa2y-rh4b" target="_blank" alt="NYC Open Data"> the NYC Open Data website.</a></em></p></center>
               </Card.Body>
             </Card>
           </Col>
