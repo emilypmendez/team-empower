@@ -21,30 +21,6 @@ import {
 
 function Dashboard() {
 
-  const series = [
-    7185167,
-    4576439,
-    3998713,
-    3476602,
-    2889000,
-    1184337,
-    681448,
-    649099,
-    382828,
-    368348,
-    284652,
-    138872,
-    107197,
-    90784,
-    73097,
-    24421,
-    16612,
-    12950,
-    9191,
-    7474,
-    1260
-  ]
-
   return (
     <>
       <Container fluid>
@@ -358,7 +334,7 @@ function Dashboard() {
                             high: 7250000,
                             showGrid: true,
                             showLabel: true,
-                            type: Chartist.AutoScaleAxis,
+                            // type: Chartist.AutoScaleAxis,
                             labelInterpolationFnc: function (value, index) {
                               return index % 1.25 == .25 ? value: null;
                             } // adjust as necessary - see github issue: https://github.com/gionkunz/chartist-js/issues/849
@@ -390,6 +366,208 @@ function Dashboard() {
                         }],
                       ]}
                     />
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md="6">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Requests per agencies (Community Board 4)</Card.Title>
+                <p className="card-category">Count of request for BK4</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart ct-perfect-fourth" id="request_BK4">
+                  <ChartistGraph
+                     data={{
+                       labels: [
+                         'DOT',
+                         'DPR',
+                         'EDC',
+                         'HPD',
+                         'FDNY',
+                         'NYPD',
+                         'NYCTA',
+                         'DOHMH',
+                         'BPL',
+                         'DSNY',
+                         'DOE',
+                         'DOB',
+                         'DOITT',
+                         'OMB',
+                         'DCLA',
+                         'DHS',
+                         'SBS',
+                         'DEP',
+                         'DYCD',
+                         'DFTA'
+                         ],
+                       series: [
+                         [
+                         6,
+                         5,
+                         5,
+                         3,
+                         3,
+                         2,
+                         2,
+                         2,
+                         2,
+                         2,
+                         1,
+                         1,
+                         1,
+                         1,
+                         1,
+                         1,
+                         1,
+                         1,
+                         1,
+                         1
+                         ],
+                       ]
+                     }}
+                       type="Bar"
+                       options= {{
+                         reverseData: true,
+                         horizontalBars: true,
+                         seriesBarDistance: 10,
+                         axisX: {
+                          type: Chartist.FixedScaleAxis,
+                          ticks: [0, 1, 2, 3, 4, 5, 6],
+                          low: 0,
+                           showGrid: true,
+                           showLabel: true
+                         },
+                         height: "480px",
+                         fullWidth: true,
+                         chartPadding: {
+                           left: 25,
+                           right:80
+                         },
+                         axisY: {
+                           offset: 35, //Insert here your axisY offset and play with the values
+                           showLabel: true
+                         }
+                     }}
+                     responsiveOptions= {[
+                       [
+                         'screen and (max-width: 640px)',
+                         {
+                           seriesBarDistance: 5,
+                           axisX: {
+                             labelInterpolationFnc: function (value) {
+                               return value[0];
+                             },
+                           },
+                         }]
+                     ]}
+                   />
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md="6">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Requests per agencies (Community Board 14)</Card.Title>
+                <p className="card-category">Count of request for BK14</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart ct-perfect-fourth" id="request_BK14">
+                  <ChartistGraph
+                      data={{
+                         labels: [
+                           'DSNY',
+                           'NYPD',
+                           'DOT',
+                           'NYCTA',
+                           'DPR',
+                           'SCA',
+                           'FDNY',
+                           'BPL',
+                           'DEP',
+                           'DOHM',
+                           'DFTA',
+                           'DHS',
+                           'SBS',
+                           'DOHMH',
+                           'HRA',
+                           'DOB',
+                           'HPD',
+                           'ACS',
+                           'DYCD',
+                           'OMB',
+                           'NYP',
+                           'EDC'
+                           ],
+                         series: [
+                           [
+                           5,
+                           3,
+                           3,
+                           3,
+                           3,
+                           2,
+                           2,
+                           2,
+                           2,
+                           2,
+                           2,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1,
+                           1
+                           ],
+                         ]
+                       }}
+                       type="Bar"
+                       options= {{
+                         reverseData: true,
+                         horizontalBars: true,
+                         seriesBarDistance: 10,
+                         axisX: {
+                          type: Chartist.FixedScaleAxis,
+                          ticks: [0, 1, 2, 3, 4, 5, 6],
+                          low: 0,
+                           showGrid: true,
+                           showLabel: true
+                         },
+                         height: "480px",
+                         fullWidth: true,
+                         chartPadding: {
+                           left: 25,
+                           right: 80
+                         },
+                         axisY: {
+                           offset: 35, //Insert here your axisY offset and play with the values
+                           showLabel: true
+                         }
+                     }}
+                     responsiveOptions= {[
+                       [
+                         'screen and (max-width: 640px)',
+                         {
+                           seriesBarDistance: 5,
+                           axisX: {
+                             labelInterpolationFnc: function (value) {
+                               return value[0];
+                             },
+                           },
+                         }]
+                     ]}
+                   />
                 </div>
               </Card.Body>
             </Card>
