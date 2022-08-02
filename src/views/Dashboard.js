@@ -150,75 +150,50 @@ function Dashboard() {
         </Row>
 
         {/* Charts Data */}
+
+        {/*
+
+          COMMUNITY Board BK4
+
+           */}
         <Row>
-          <h4>District Needs</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h4>The Community Board Budget Requests</h4>
+          <p>Requests is a Charter mandate that form an integral part of the City's budget process.
+            It is intended to support communies in their ongoing consultations with city agencies, elected officials and
+            other key stakeholders and influence more informed decision making on a broad range of local planning and budget priories.
               <br/><br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                These graphs are based on the requests of community board 4 and 14 during the fiscal year of 2023.
+                They serve to show which agencies are most prevalent in the requests, as it shows which core issues the community cared most for at that time.
+                The graphs are divided based on the community boards and the type of budget requests (Capital/Expense).
               <br/><br/>
           </p>
           <Col md="6">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Requests per agencies (Community Board 4)</Card.Title>
-                <p className="card-category">Count of request for BK4</p>
+                <Card.Title as="h4">Requests per agencies (CAPITAL - Community Board 4)</Card.Title>
+                <p className="card-category">Count of Requests for BK4</p>
               </Card.Header>
               <Card.Body>
-                <div className="ct-chart ct-perfect-fourth" id="request_BK4">
+                <div className="ct-chart ct-perfect-fourth" id="agencyCapital_BK4">
                   <ChartistGraph
                      data={{
                        labels: [
-                         'DOT',
-                         'DPR',
-                         'EDC',
-                         'HPD',
-                         'FDNY',
-                         'NYPD',
-                         'NYCTA',
-                         'DOHMH',
-                         'BPL',
-                         'DSNY',
-                         'DOE',
-                         'DOB',
-                         'DOITT',
-                         'OMB',
-                         'DCLA',
-                         'DHS',
-                         'SBS',
-                         'DEP',
-                         'DYCD',
-                         'DFTA'
-                         ],
-                       series: [
-                         [
-                         6,
-                         5,
-                         5,
-                         3,
-                         3,
-                         2,
-                         2,
-                         2,
-                         2,
-                         2,
-                         1,
-                         1,
-                         1,
-                         1,
-                         1,
-                         1,
-                         1,
-                         1,
-                         1,
-                         1
-                         ],
-                       ]
-                     }}
+                        'DOT',
+                        'DPR',
+                        'HPD',
+                        'EDC',
+                        'BPL'
+                        ],
+                        series: [
+                          [
+                          5,
+                          3,
+                          2,
+                          2,
+                          2
+                          ],
+                        ]
+                       }}
                        type="Bar"
                        options= {{
                          reverseData: true,
@@ -263,63 +238,172 @@ function Dashboard() {
           <Col md="6">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Requests per agencies (Community Board 14)</Card.Title>
-                <p className="card-category">Count of request for BK14</p>
+                <Card.Title as="h4">Requests per agencies (EXPENSE - Community Board 4)</Card.Title>
+                <p className="card-category">Count of Requests for BK4</p>
               </Card.Header>
               <Card.Body>
-                <div className="ct-chart ct-perfect-fourth" id="request_BK14">
+                <div className="ct-chart ct-perfect-fourth" id="agencyExpense_BK4">
                   <ChartistGraph
                       data={{
-                         labels: [
+                        labels: [
+                           'FDNY',
+                           'EDC',
                            'DSNY',
-                           'NYPD',
+                           'DOHMH',
+                           'DPR'
+                           ],
+                           series: [
+                             [
+                             3,
+                             3,
+                             2,
+                             2,
+                             2
+                             ],
+                           ]
+                       }}
+                       type="Bar"
+                       options= {{
+                         reverseData: true,
+                         horizontalBars: true,
+                         seriesBarDistance: 10,
+                         axisX: {
+                          type: Chartist.FixedScaleAxis,
+                          ticks: [0, 1, 2, 3, 4, 5, 6],
+                          low: 0,
+                           showGrid: true,
+                           showLabel: true
+                         },
+                         height: "480px",
+                         fullWidth: true,
+                         chartPadding: {
+                           left: 25,
+                           right: 80
+                         },
+                         axisY: {
+                           offset: 35, //Insert here your axisY offset and play with the values
+                           showLabel: true
+                         }
+                     }}
+                     responsiveOptions= {[
+                       [
+                         'screen and (max-width: 640px)',
+                         {
+                           seriesBarDistance: 5,
+                           axisX: {
+                             labelInterpolationFnc: function (value) {
+                               return value[0];
+                             },
+                           },
+                         }]
+                     ]}
+                   />
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        {/*
+
+          COMMUNITY Board BK14
+
+           */}
+        <Row>
+          <Col md="6">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Requests per agencies (CAPITAL - Community Board 14)</Card.Title>
+                <p className="card-category">Count of Requests for BK14</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart ct-perfect-fourth" id="agencyCapital_BK14">
+                  <ChartistGraph
+                     data={{
+                         labels: [
                            'DOT',
-                           'NYCTA',
+                           'NYPD',
                            'DPR',
                            'SCA',
-                           'FDNY',
-                           'BPL',
-                           'DEP',
-                           'DOHM',
-                           'DFTA',
-                           'DHS',
-                           'SBS',
-                           'DOHMH',
-                           'HRA',
-                           'DOB',
-                           'HPD',
-                           'ACS',
-                           'DYCD',
-                           'OMB',
-                           'NYP',
-                           'EDC'
+                           'NYCTA'
                            ],
-                         series: [
-                           [
-                           5,
-                           3,
-                           3,
-                           3,
-                           3,
-                           2,
-                           2,
-                           2,
-                           2,
-                           2,
-                           2,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1,
-                           1
-                           ],
-                         ]
+                           series: [
+                             [
+                             3,
+                             2,
+                             2,
+                             2,
+                             2
+                             ],
+                           ]
+                       }}
+                       type="Bar"
+                       options= {{
+                         reverseData: true,
+                         horizontalBars: true,
+                         seriesBarDistance: 10,
+                         axisX: {
+                          type: Chartist.FixedScaleAxis,
+                          ticks: [0, 1, 2, 3, 4, 5, 6],
+                          low: 0,
+                           showGrid: true,
+                           showLabel: true
+                         },
+                         height: "480px",
+                         fullWidth: true,
+                         chartPadding: {
+                           left: 25,
+                           right:80
+                         },
+                         axisY: {
+                           offset: 35, //Insert here your axisY offset and play with the values
+                           showLabel: true
+                         }
+                     }}
+                     responsiveOptions= {[
+                       [
+                         'screen and (max-width: 640px)',
+                         {
+                           seriesBarDistance: 5,
+                           axisX: {
+                             labelInterpolationFnc: function (value) {
+                               return value[0];
+                             },
+                           },
+                         }]
+                     ]}
+                   />
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md="6">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4">Requests per agencies (EXPENSE - Community Board 14)</Card.Title>
+                <p className="card-category">Count of Requests for BK14</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart ct-perfect-fourth" id="agencyExpense_BK14">
+                  <ChartistGraph
+                      data={{
+                        labels: [
+                          'DSNY',
+                          'DOHM',
+                          'DFTA',
+                          'DEP',
+                          'OMB'
+                          ],
+                          series: [
+                            [
+                            4,
+                            2,
+                            2,
+                            2,
+                            1
+                            ],
+                          ]
                        }}
                        type="Bar"
                        options= {{
