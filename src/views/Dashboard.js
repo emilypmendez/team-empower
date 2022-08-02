@@ -449,14 +449,17 @@ function Dashboard() {
 
         <Row>
           <h4>Capital Projects by Agency (Adopted)</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>New York City’s spending on capital projects consumes a significant portion of the municipal budget.
+            Capital projects are directed to a city agency an adopt the criteria as either a new construction, expansion,
+            renovation, or replacement project for an existing facility or facilities. This could look like building schools,
+            repaving streets, or buying fire truck. An agency's capital program is presented in the capital commitment plan,
+            which is released three times annually by OMB. It also includes the estimated implementation timetable for projects
+            in the current fiscal year and the following three years. Based on the overall expenditure of their capital projects,
+            the agencies that received the greatest funding for 2021 are shown in the graph below. Thereby showing us which areas
+            are prioritized in our city's improvements.
               <br/><br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Source: Mayor’s Office of Management and Budget (OMB). (2022).
+                Capital Project Detail Data - Dollars [data file and codebook]. Retrieved from <a href="" target="_blank">NYC OpenData</a>.
               <br/><br/>
           </p>
           <Col lg="12">
