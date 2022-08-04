@@ -29,9 +29,9 @@ function Sidebar({ color, image, routes }) {
             href="/"
             className="simple-text logo-mini mx-1"
           >
-            <div className="logo-img">
+           {/*  <div className="logo-img">
               <img src={require("assets/img/reactlogo.png")} alt="..." />
-            </div>
+            </div> */}
           </a>
           <a className="simple-text" href="/">
             Team Empower
