@@ -161,13 +161,15 @@ function Dashboard() {
           <p>Requests is a Charter mandate that form an integral part of the City's budget process.
             It is intended to support communies in their ongoing consultations with city agencies, elected officials and
             other key stakeholders and influence more informed decision making on a broad range of local planning and budget priories.
-              <br/><br/>
-                These graphs are based on the requests of community board 4 and 14 during the fiscal year of 2023.
-                They serve to show which agencies are most prevalent in the requests, as it shows which core issues the community cared most for at that time.
-                The graphs are divided based on the community boards and the type of budget requests (Capital/Expense).
-              <br/><br/>
-                Source: Retrieved from
-                <a href="#pablo" target="_blank"> NYC OpenData</a>.
+
+              These graphs are based on the requests of Community Boards 4 and 14 during the fiscal year of 2023.
+              They serve to show which agencies are most prevalent in the requests, as it shows which core issues the community cared most for at that time.
+              The graphs are divided based on the community boards and the type of budget requests (Capital/Expense).
+                <br/><br/>
+              Source: Capital Budget data retrieved from
+              <a href="https://data.cityofnewyork.us/City-Government/Capital-Project-Detail-Data-Dollars/wa2y-rh4b" target="_blank"> NYC OpenData</a>.
+              Budget Request for <a href="https://docs.google.com/viewer?url=https://github.com/NYCPlanning/labs-cd-needs-statements/raw/master//BK%20DNS%20FY%202023/FY2023_Statement_BK04.pdf" target="_blank"> BK4 </a>
+              and <a href="https://www.cb14brooklyn.com/wp-content/uploads/2022/03/FY2023_Statement_BK14.pdf" target="_blank"> BK14 </a>are in PDF format.
           </p>
           <Col md="6">
             <Card>
