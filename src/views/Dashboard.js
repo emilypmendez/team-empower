@@ -166,6 +166,8 @@ function Dashboard() {
                 They serve to show which agencies are most prevalent in the requests, as it shows which core issues the community cared most for at that time.
                 The graphs are divided based on the community boards and the type of budget requests (Capital/Expense).
               <br/><br/>
+                Source: Retrieved from
+                <a href="#" target="_blank"> NYC OpenData</a>.
           </p>
           <Col md="6">
             <Card>
@@ -459,7 +461,8 @@ function Dashboard() {
             are prioritized in our city's improvements.
               <br/><br/>
                 Source: Mayor’s Office of Management and Budget (OMB). (2022).
-                Capital Project Detail Data - Dollars [data file and codebook]. Retrieved from <a href="" target="_blank">NYC OpenData</a>.
+                Capital Project Detail Data - Dollars [data file and codebook]. Retrieved from
+                <a href="https://www.ibo.nyc.ny.us/iboreports/IBOCBG.pdf" target="_blank"> NYC OpenData</a>.
               <br/><br/>
           </p>
           <Col lg="12">
@@ -573,14 +576,11 @@ function Dashboard() {
 
         <Row>
           <h4>Top Expense Projects by Agency</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>This chart summarizes the expense budget of New York City in 2021 according to NYC open data.
+            The data was grouped by different agencies. Each bar represents the actual total adopted budget of one agency in the year.
               <br/><br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Source: Retrieved from NYC Open Data and their
+                <a href="https://data.cityofnewyork.us/City-Government/Expense-Budget/mwzb-yiwb"> Expense Budget for City Government.</a>
               <br/><br/>
           </p>
           <Col md="4">

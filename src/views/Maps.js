@@ -48,6 +48,13 @@ function Maps() {
         <div id="map" ref={mapRef}></div>
       </div> */}
       <h4>Mapping Tool</h4>
+      <p>One of the main purposes of community boards is to advocate for the needs of the residents in their district.
+        To accomplish this, communication and collaboration between the boards, residents, and city agencies is essential -
+        this mapping tool was created with that in mind. <br/><br/>
+
+        Here you can explore layers of data related to various pieces of infrastructure in your Brooklyn community district.
+        You can learn more about the data and when it was last updated by clicking "Sources" in the header section of the map.
+      </p>
       <div className="embed-container">
         <iframe
           width="500"
