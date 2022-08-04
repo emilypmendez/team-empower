@@ -167,7 +167,7 @@ function Dashboard() {
                 The graphs are divided based on the community boards and the type of budget requests (Capital/Expense).
               <br/><br/>
                 Source: Retrieved from
-                <a href="#" target="_blank"> NYC OpenData</a>.
+                <a href="#pablo" target="_blank"> NYC OpenData</a>.
           </p>
           <Col md="6">
             <Card>
@@ -580,7 +580,7 @@ function Dashboard() {
             The data was grouped by different agencies. Each bar represents the actual total adopted budget of one agency in the year.
               <br/><br/>
                 Source: Retrieved from NYC Open Data and their
-                <a href="https://data.cityofnewyork.us/City-Government/Expense-Budget/mwzb-yiwb"> Expense Budget for City Government.</a>
+                <a href="https://data.cityofnewyork.us/City-Government/Expense-Budget/mwzb-yiwb" target="_blank"> Expense Budget for City Government.</a>
               <br/><br/>
           </p>
           <Col md="4">
