@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "agency_name": "DEPT OF DESIGN & CONSTRUCTION",
+    "budget": 73596,
+    "community_board": "CB4",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 2,
+    "agency_name": "BROOKLYN PUBLIC LIBRARY",
+    "budget": 14403,
+    "community_board": "CB4",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 3,
+    "agency_name": "FIRE DEPARTMENT",
+    "budget": 7786,
+    "community_board": "CB4",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 4,
+    "agency_name": "HEALTH AND HOSPITALS CORP",
+    "budget": 4410,
+    "community_board": "CB4",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 5,
+    "agency_name": "HOUSING PRESERVATION AND DEVEL",
+    "budget": 1100,
+    "community_board": "CB4",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 6,
+    "agency_name": "DEPARTMENT OF SANITATION",
+    "budget": 500,
+    "community_board": "CB4",
+    "city": "Brooklyn",
+    "state": "New York"
+  }
+]

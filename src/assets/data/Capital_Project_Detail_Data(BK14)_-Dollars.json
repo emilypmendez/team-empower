@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "agency_name": "DEPARTMENT OF TRANSPORTATION",
+    "budget": 59629,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 2,
+    "agency_name": "DEPT ENVIRONMENTAL PROTECTION",
+    "budget": 33456,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 3,
+    "agency_name": "DEPT OF PARKS AND RECREATION",
+    "budget": 25769,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 4,
+    "agency_name": "DEPT OF DESIGN & CONSTRUCTION",
+    "budget": 10916,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 5,
+    "agency_name": "CITY UNIVERSITY",
+    "budget": 6256,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 6,
+    "agency_name": "HUMAN RESOURCES ADMINISTRATION",
+    "budget": 2557,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 7,
+    "agency_name": "BROOKLYN PUBLIC LIBRARY",
+    "budget": 1616,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 8,
+    "agency_name": "DEPARTMENT OF SANITATION",
+    "budget": 949,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 9,
+    "agency_name": "DEPT OF  SMALL BUSINESS SERVICES",
+    "budget": 513,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  },
+  {
+    "id": 10,
+    "agency_name": "DEPT OF CITYWIDE ADMIN SERVS",
+    "budget": 350,
+    "community_board": "CB 14",
+    "city": "Brooklyn",
+    "state": "New York"
+  }
+]

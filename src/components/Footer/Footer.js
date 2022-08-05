@@ -14,7 +14,7 @@ class Footer extends Component {
                 </a>
               </li>
               <li>
-                <a href="https://www1.nyc.gov/site/cau/community-boards/about-commmunity-boards.page" target="_blank">
+                <a href="https://www.nyc.gov/communityboards" target="_blank">
                   About Community Boards
                 </a>
               </li>
@@ -25,7 +25,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a href="https://www1.nyc.gov/site/cau/connected/newsletter.page" target="_blank">
-                  Stay Connected
+                  Stay Connected with the NYC.gov Newsletter
                 </a>
               </li>
             </ul>

@@ -573,6 +573,97 @@ function Dashboard() {
               </Card.Body>
             </Card>
           </Col>
+          <Col lg="12">
+            <Card>
+              <Card.Header>
+                <Card.Title as="h4"> Discretionary Funds by Category</Card.Title>
+                <p className="card-category">Current Program Initiatives Funded</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="ct-chart ct-octave" id="chartIssues_DiscretionaryFunding">
+                  <ChartistGraph
+                      data={{
+                        labels: [
+                          "Education",
+                          "Cultural",
+                          "Elderly",
+                          "Youth",
+                          "Miscellaneous",
+                          "Advocacy",
+                          "General Operations",
+                          "Environment",
+                          "Arts",
+                          "Community Outreach",
+                          "Career",
+                          "Housing",
+                          "Health",
+                          "Social Services",
+                          "Community Beautification",
+                          "Homeless"
+                        ],
+                        series: [
+                          [
+                            434,
+                            370,
+                            204,
+                            182,
+                            165,
+                            115,
+                            114,
+                            88,
+                            87,
+                            76,
+                            74,
+                            70,
+                            67,
+                            43,
+                            20,
+                            18
+                          ]
+                        ]
+                      }}
+                        type="Bar"
+                        options= {{
+                          reverseData: true,
+                          horizontalBars: false,
+                          seriesBarDistance: 10,
+                          axisX: {
+                            low: 0,
+                            high: 450,
+                            showGrid: true,
+                            showLabel: true
+                          },
+                          axisY: {
+                            offset: 100, //Insert here your axisY offset and play with the values
+                            showLabel: true
+                          },
+                          fullHeight: false,
+                          fullWidth: true,
+                          height: "725",
+                          chartPadding: {
+                            left: 0,
+                            right: 15,
+                            bottom: 50,
+                            top: 0
+                          }
+                        }}
+                        responsiveOptions= {[
+                          [
+                            'screen and (max-width: 640px)',
+                            {
+                              seriesBarDistance: 5,
+                              axisX: {
+                                labelInterpolationFnc: function (value) {
+                                  return value[0];
+                                },
+                              },
+                        }],
+                      ]}
+                    />
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
 
 

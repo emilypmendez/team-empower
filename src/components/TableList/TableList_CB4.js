@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import dataBK4json from '../../assets/data/Top5Agency(Capital_BK4).json'
+import dataBK4json from '../../assets/data/Capital_Project_Detail_Data(BK4)_-Dollars.json'
 
 // react-bootstrap components
 import {
@@ -22,7 +22,7 @@ function TableListCB4() {
 
   // useEffect : fetch function for BK4
   useEffect(()=> {
-    fetch("../assets/data/Top5Agency(Capital_BK4).json",
+    fetch("../assets/data/Capital_Project_Detail_Data(BK4)_-Dollars.json",
     {
       method: 'GET',
       headers: {
@@ -48,9 +48,9 @@ function TableListCB4() {
             <Col md="12">
               <Card className="strpied-tabled-with-hover">
                 <Card.Header>
-                  <Card.Title as="h4"><strong>Top 5 Agency Budgets of Community Board 4</strong></Card.Title>
+                  <Card.Title as="h4"><strong>Top Agency Budgets of Community Board 4</strong></Card.Title>
                   <p className="card-category">
-                    Displaying fun statistics as it appears on NYC.gov
+                    Displaying fun statistics as it appears on NYC.gov (in the thousands $$)
                   </p>
                 </Card.Header>
                 <Card.Body className="table-full-width table-responsive px-0">
@@ -68,16 +68,16 @@ function TableListCB4() {
                     </thead>
                     <tbody>
                       {dataBK4json && dataBK4json.map(
-                        function(data, {id, agency, cityAmount, noncityAmount}){
+                        function(data, {id, agency_name, budget, community_board, city, state}){
                           return (
                             <>
                               <tr key={data.id}>
                                 <td>{data.id}</td>
-                                <td>{data.agency}</td>
-                                <td>${data.cityAmount}</td>
-                                <td>CB 4</td>
-                                <td>Brooklyn</td>
-                                <td>New York</td>
+                                <td>{data.agency_name}</td>
+                                <td>$ {data.budget}</td>
+                                <td>{data.community_board}</td>
+                                <td>{data.city}</td>
+                                <td>{data.state}</td>
                                 {/* <td><Button onClick={(event)=> event.target.value} target="_blank">View on NYC.gov</Button></td> */}
                               </tr>
                               </>

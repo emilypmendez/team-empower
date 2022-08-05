@@ -158,10 +158,16 @@ function Header() {
                 <div className="divider"></div>
 
                 <Dropdown.Item
-                  href="https://www1.nyc.gov/site/cau/connected/sign-up.page"
+                  href="https://www1.nyc.gov/site/brooklyncb4/about/join-our-email-list.page"
                   target="_blank"
                 >
-                  Sign Up for Our Newsletter
+                  Sign Up for the CB4 Newsletter
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://www.cb14brooklyn.com/about/cb14-newsletter/"
+                  target="_blank"
+                >
+                  Sign Up for the CB14 Newsletter
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
