@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "priority": "15-Jan",
+    "priority": "1",
     "agency": "HPD",
     "budgetType": "Capital",
     "request": "Housing, Economic Development and Land Use",
@@ -9,15 +9,15 @@
   },
   {
     "id": 2,
-    "priority": "15-Feb",
+    "priority": "2",
     "agency": "HPD",
     "budgetType": "Capital",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Provide more housing for special needs households, such as the formerly homeless"
+    "requestDescription": "Provide more housing for special needs households,such as the formerly homeless"
   },
   {
     "id": 3,
-    "priority": "15-Mar",
+    "priority": "3",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -25,55 +25,55 @@
   },
   {
     "id": 4,
-    "priority": "15-Apr",
+    "priority": "4",
     "agency": "DPR",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Other street trees and forestry services requests"
+    "requestDescription": "Other street treesand forestryservices requests"
   },
   {
     "id": 5,
-    "priority": "15-May",
+    "priority": "5",
     "agency": "DPR",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Reconstruct or upgrade a building in a park"
+    "requestDescription": "Reconstruct orupgrade a buildingin a park"
   },
   {
     "id": 6,
-    "priority": "15-Jun",
+    "priority": "6",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
-    "requestDescription": "Repair or provide new street lights"
+    "requestDescription": "Repair or providenew street lights"
   },
   {
     "id": 7,
-    "priority": "15-Jul",
+    "priority": "7",
     "agency": "DPR",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Provide a new, or new expansion to, abuilding in a park"
+    "requestDescription": "Provide a new, ornew expansion to, abuilding in a park0"
   },
   {
     "id": 8,
-    "priority": "15-Aug",
+    "priority": "8",
     "agency": "EDC",
     "budgetType": "Capital",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Invest ininfrastructure that will support growth in commercial business districts"
+    "requestDescription": "Invest ininfrastructure thatwill support growthin commercialbusiness districts0"
   },
   {
     "id": 9,
-    "priority": "15-Sep",
+    "priority": "9",
     "agency": "BPL",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Create a new, orrenovate or upgrade an existing public library (BPL)"
+    "requestDescription": "Create a new, orrenovate or upgradean existing publiclibrary (BPL)"
   },
   {
     "id": 10,
-    "priority": "15-Oct",
+    "priority": "10",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "priority": "15-Nov",
+    "priority": "11",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -89,35 +89,35 @@
   },
   {
     "id": 12,
-    "priority": "15-Dec",
+    "priority": "12",
     "agency": "NYPD",
     "budgetType": "Capital",
     "request": "Public Safety and Emergency Services",
-    "requestDescription": "Other NYPD facilities and equipment requests"
+    "requestDescription": "Other NYPDfacilities andequipment requests"
   },
   {
     "id": 13,
-    "priority": "13/15",
+    "priority": "13",
     "agency": "DOE",
     "budgetType": "Capital",
     "request": "Youth, Education and Child Welfare",
-    "requestDescription": "Other capital budget request for DOE"
+    "requestDescription": "Other capital budgetrequest for DOE"
   },
   {
     "id": 14,
-    "priority": "14/15",
+    "priority": "14",
     "agency": "NYCTA",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
-    "requestDescription": "Repair or upgrade subway stations or other transit infrastructure"
+    "requestDescription": "Repair or upgradesubway stations orother transitinfrastructure"
   },
   {
     "id": 15,
-    "priority": "15/15",
+    "priority": "15",
     "agency": "NYCTA",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
-    "requestDescription": "Repair or upgrade subway stations or other transit infrastructure"
+    "requestDescription": "Repair or upgradesubway stations orother transitInfrastructure"
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "agency": "EDC",
     "budgetType": "Capital",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Other capital budget request for EDC"
+    "requestDescription": "Other capital budgetrequest for EDC"
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "agency": "BPL",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Create a new, or renovate or upgrade an existing public library (BPL)"
+    "requestDescription": "Create a new, orrenovate or upgradean existing publiclibrary (BPL)"
   },
   {
     "id": 18,
@@ -145,127 +145,127 @@
   },
   {
     "id": 19,
-    "priority": "24-Jan",
+    "priority": "1",
     "agency": "NYPD",
     "budgetType": "Expense",
     "request": "Public Safety and Emergency Services",
-    "requestDescription": "Hire additional uniformed officers"
+    "requestDescription": "Hire additionaluniformed officers"
   },
   {
     "id": 20,
-    "priority": "24-Feb",
+    "priority": "2",
     "agency": "DPR",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Enhance park safety through more security staff (police or parks enforcement)"
+    "requestDescription": "Enhance park safetythrough moresecurity staff (policeor parksenforcement)"
   },
   {
     "id": 21,
-    "priority": "24-Mar",
+    "priority": "3",
     "agency": "DOB",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Expand code Enforcement"
+    "requestDescription": "Expand codeEnforcement"
   },
   {
     "id": 22,
-    "priority": "24-Apr",
+    "priority": "4",
     "agency": "HPD",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Expand programs for housing inspections to correct code violations"
+    "requestDescription": "Expand programsfor housinginspections tocorrect codeviolations"
   },
   {
     "id": 23,
-    "priority": "24-May",
+    "priority": "5",
     "agency": "DOHMH",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
-    "requestDescription": "Animal and pest control requests, including reducing rat and mosquito populations"
+    "requestDescription": "Animal and pestcontrol requestsincluding reducingrat and mosquitopopulations"
   },
   {
     "id": 24,
-    "priority": "24-Jun",
+    "priority": "6",
     "agency": "DOHMH",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
-    "requestDescription": "Other programs to address public health issues requests"
+    "requestDescription": "Other programs toaddress publichealth issuesrequests"
   },
   {
     "id": 25,
-    "priority": "24-Jul",
+    "priority": "7",
     "agency": "FDNY",
     "budgetType": "Expense",
     "request": "Public Safety and Emergency Services",
-    "requestDescription": "Other expense budget request for FDNY"
+    "requestDescription": "Other expensebudget request forFDNY"
   },
   {
     "id": 26,
-    "priority": "24-Aug",
+    "priority": "8",
     "agency": "DOITT",
     "budgetType": "Expense",
     "request": "Other",
-    "requestDescription": "Information technology goods and services"
+    "requestDescription": "Informationtechnology goodsand services"
   },
   {
     "id": 27,
-    "priority": "24-Sep",
+    "priority": "9",
     "agency": "DOT",
     "budgetType": "Expense",
     "request": "Transportation and Mobility",
-    "requestDescription": "Other traffic improvement requests"
+    "requestDescription": "Other trafficimprovementrequests"
   },
   {
     "id": 28,
-    "priority": "24-Oct",
+    "priority": "10",
     "agency": "OMB",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Provide more community board staff"
+    "requestDescription": "Provide morecommunity boardstaff"
   },
   {
     "id": 29,
-    "priority": "24-Nov",
+    "priority": "11",
     "agency": "DCLA",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Provide more public Art"
+    "requestDescription": "Provide more publicArt"
   },
   {
     "id": 30,
-    "priority": "24-Dec",
+    "priority": "12",
     "agency": "DHS",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
-    "requestDescription": "Expand street Outreach"
+    "requestDescription": "Expand streetOutreach"
   },
   {
     "id": 31,
-    "priority": "13/24",
+    "priority": "13",
     "agency": "EDC",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Expand programs to support MWBE-owned firms and businesses"
+    "requestDescription": "Expand programs tosupport MWBE-owned firms andbusinesses"
   },
   {
     "id": 32,
-    "priority": "14/24",
+    "priority": "14",
     "agency": "SBS",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Support merchant Organizing"
+    "requestDescription": "Support merchantOrganizing"
   },
   {
     "id": 33,
-    "priority": "15/24",
+    "priority": "15",
     "agency": "FDNY",
     "budgetType": "Expense",
     "request": "Public Safety and Emergency Services",
-    "requestDescription": "Provide more firefighters or EMS workers"
+    "requestDescription": "Provide morefirefighters or EMSworkers"
   },
   {
     "id": 34,
-    "priority": "16/24",
+    "priority": "16",
     "agency": "DEP",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -273,47 +273,47 @@
   },
   {
     "id": 35,
-    "priority": "17/24",
+    "priority": "17",
     "agency": "DPR",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
-    "requestDescription": "Improve trash removal and cleanliness"
+    "requestDescription": "Improve trashremoval andcleanliness"
   },
   {
     "id": 36,
-    "priority": "18/24",
+    "priority": "18",
     "agency": "DYCD",
     "budgetType": "Expense",
     "request": "Youth, Education and Child Welfare",
-    "requestDescription": "Provide, expand, or enhance afterschool programs for elementary school students (grades K-5)"
+    "requestDescription": "Provide, expand, orenhance afterschool programs forelementary schoolstudents (grades K-5)"
   },
   {
     "id": 37,
-    "priority": "19/24",
+    "priority": "19",
     "agency": "DSNY",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
-    "requestDescription": "Increase enforcement of canine waste laws"
+    "requestDescription": "Increaseenforcement ofcanine waste laws"
   },
   {
     "id": 38,
-    "priority": "20/24",
+    "priority": "20",
     "agency": "DFTA",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
-    "requestDescription": "Enhance educational and recreational programs"
+    "requestDescription": "Enhanceeducational andrecreationalprograms"
   },
   {
     "id": 39,
-    "priority": "21/24",
+    "priority": "21",
     "agency": "EDC",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
-    "requestDescription": "Expand programs in emerging and legacy industries, e.g.fashion, film, advanced and food manufacturing, life sciences and healthcare, offshore wind, freight, and maritime"
+    "requestDescription": "Expand programs inemerging and legacyindustries, e.g.fashion, film,advanced and foodmanufacturing, lifesciences andhealthcare, offshorewind, freight, andmaritime"
   },
   {
     "id": 40,
-    "priority": "22/24",
+    "priority": "22",
     "agency": "EDC",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
@@ -321,7 +321,7 @@
   },
   {
     "id": 41,
-    "priority": "23/24",
+    "priority": "23",
     "agency": "DSNY",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -329,7 +329,7 @@
   },
   {
     "id": 42,
-    "priority": "24/24",
+    "priority": "24",
     "agency": "FDNY",
     "budgetType": "Expense",
     "request": "Public Safety and Emergency Services",

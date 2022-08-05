@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "priority": "1/13",
+    "priority": "1",
     "agency": "NYPD",
     "budgetType": "Capital",
     "request": "Public Safety and Emergency Services",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "priority": "2/13",
+    "priority": "2",
     "agency": "DPR",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "priority": "3/13",
+    "priority": "3",
     "agency": "DPR",
     "budgetType": "Capital",
     "request": "Parks, Cultural and Other Community Facilities",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "priority": "4/13",
+    "priority": "4",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "priority": "5/13",
+    "priority": "5",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "priority": "6/13",
+    "priority": "6",
     "agency": "DOT",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "priority": "7/13",
+    "priority": "7",
     "agency": "SCA",
     "budgetType": "Capital",
     "request": "Youth, Education and Child Welfare",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "priority": "8/13",
+    "priority": "8",
     "agency": "NYCTA",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "priority": "9/13",
+    "priority": "9",
     "agency": "FDNY",
     "budgetType": "Capital",
     "request": "Public Safety and Emergency Services",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "priority": "10/13",
+    "priority": "10",
     "agency": "NYCTA",
     "budgetType": "Capital",
     "request": "Transportation and Mobility",
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "priority": "11/13",
+    "priority": "11",
     "agency": "NYPD",
     "budgetType": "Capital",
     "request": "Public Safety and Emergency Services",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "priority": "12/13",
+    "priority": "12",
     "agency": "SCA",
     "budgetType": "Capital",
     "request": "Youth, Education and Child Welfare",
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "priority": "13/13",
+    "priority": "13",
     "agency": "NYP",
     "budgetType": "Capital",
     "request": "Public Safety and Emergency Services",
@@ -121,7 +121,7 @@
   },
   {
     "id": 16,
-    "priority": "1/25",
+    "priority": "1",
     "agency": "OMB",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
@@ -129,7 +129,7 @@
   },
   {
     "id": 17,
-    "priority": "2/25",
+    "priority": "2",
     "agency": "DEP",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "priority": "3/25",
+    "priority": "3",
     "agency": "DSNY",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -145,7 +145,7 @@
   },
   {
     "id": 19,
-    "priority": "4/25",
+    "priority": "4",
     "agency": "DPR",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
@@ -153,7 +153,7 @@
   },
   {
     "id": 20,
-    "priority": "5/25",
+    "priority": "5",
     "agency": "DOB",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
@@ -161,7 +161,7 @@
   },
   {
     "id": 21,
-    "priority": "6/25",
+    "priority": "6",
     "agency": "DEP",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -169,7 +169,7 @@
   },
   {
     "id": 22,
-    "priority": "7/25",
+    "priority": "7",
     "agency": "DOHM",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -177,7 +177,7 @@
   },
   {
     "id": 23,
-    "priority": "8/25",
+    "priority": "8",
     "agency": "DOHM",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -185,7 +185,7 @@
   },
   {
     "id": 24,
-    "priority": "9/25",
+    "priority": "9",
     "agency": "FDNY",
     "budgetType": "Expense",
     "request": "Public Safety and Emergency Services",
@@ -193,7 +193,7 @@
   },
   {
     "id": 25,
-    "priority": "10/25",
+    "priority": "10",
     "agency": "DYCD",
     "budgetType": "Expense",
     "request": "Youth, Education and Child Welfare",
@@ -201,7 +201,7 @@
   },
   {
     "id": 26,
-    "priority": "11/25",
+    "priority": "11",
     "agency": "ACS",
     "budgetType": "Expense",
     "request": "Youth, Education and Child Welfare",
@@ -209,7 +209,7 @@
   },
   {
     "id": 27,
-    "priority": "12/25",
+    "priority": "12",
     "agency": "HPD",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
@@ -217,7 +217,7 @@
   },
   {
     "id": 28,
-    "priority": "13/25",
+    "priority": "13",
     "agency": "DHS",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -225,7 +225,7 @@
   },
   {
     "id": 29,
-    "priority": "14/25",
+    "priority": "14",
     "agency": "NYPD",
     "budgetType": "Expense",
     "request": "Public Safety and Emergency Services",
@@ -233,7 +233,7 @@
   },
   {
     "id": 30,
-    "priority": "15/25",
+    "priority": "15",
     "agency": "HRA",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -241,7 +241,7 @@
   },
   {
     "id": 31,
-    "priority": "16/25",
+    "priority": "16",
     "agency": "DFTA",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -249,7 +249,7 @@
   },
   {
     "id": 32,
-    "priority": "17/25",
+    "priority": "17",
     "agency": "DFTA",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -257,7 +257,7 @@
   },
   {
     "id": 33,
-    "priority": "18/25",
+    "priority": "18",
     "agency": "DOHMH",
     "budgetType": "Expense",
     "request": "Health Care and Human Services",
@@ -265,7 +265,7 @@
   },
   {
     "id": 34,
-    "priority": "19/25",
+    "priority": "19",
     "agency": "SBS",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
@@ -273,7 +273,7 @@
   },
   {
     "id": 35,
-    "priority": "20/25",
+    "priority": "20",
     "agency": "BPL",
     "budgetType": "Expense",
     "request": "Parks, Cultural and Other Community Facilities",
@@ -281,7 +281,7 @@
   },
   {
     "id": 36,
-    "priority": "21/25",
+    "priority": "21",
     "agency": "EDC",
     "budgetType": "Expense",
     "request": "Housing, Economic Development and Land Use",
@@ -289,7 +289,7 @@
   },
   {
     "id": 37,
-    "priority": "22/25",
+    "priority": "22",
     "agency": "NYCTA",
     "budgetType": "Expense",
     "request": "Transportation and Mobility",
@@ -297,7 +297,7 @@
   },
   {
     "id": 38,
-    "priority": "23/25",
+    "priority": "23",
     "agency": "DSNY",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -305,7 +305,7 @@
   },
   {
     "id": 39,
-    "priority": "24/25",
+    "priority": "24",
     "agency": "DSNY",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",
@@ -313,7 +313,7 @@
   },
   {
     "id": 40,
-    "priority": "25/25",
+    "priority": "25",
     "agency": "DSNY",
     "budgetType": "Expense",
     "request": "Core Infrastructure, City Services and Resiliency",

@@ -573,6 +573,18 @@ function Dashboard() {
               </Card.Body>
             </Card>
           </Col>
+
+          <h4>Discretionary Funds</h4>
+          <p>Discretionary funds make up an appropriated sum of money in the City’s expense budget.
+            Funds are allocated to eligible not-for-profit organizations by the City Council or a Member of the Council.
+            There are several categories of discretionary funding used by the City Council, each serving different purposes.
+            The graph below provides a count of total initiatives directed towards each category based on recurring keywords.
+            These non-profit initiatives can be youth oriented, senior oriented, anti-poverty oriented, local needs oriented, etc.
+              <br/><br/>
+                Source: Mayor’s Office of Management and Budget (OMB). (2022). New York City Council Discretionary Funding. Retrieved from NYC OpenData. Retrieved from
+                <a href="https://data.cityofnewyork.us/City-Government/New-York-City-Council-Discretionary-Funding/4d7f-74pe" target="_blank"> NYC OpenData</a>.
+              <br/><br/>
+              </p>
           <Col lg="12">
             <Card>
               <Card.Header>
